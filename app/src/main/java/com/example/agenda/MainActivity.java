@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.layout_add_new_contact);
 
         EditText editTextNombre = findViewById(R.id.editText);
         EditText editTextApellidos = findViewById(R.id.editText2);
